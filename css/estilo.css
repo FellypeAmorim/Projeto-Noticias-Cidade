@@ -30,6 +30,11 @@ body {
 
 /* Barra de Navegação */
 
+a:link, a:visited {
+	color: #b10333;
+	padding: 2px;
+}
+
 ul {
 	margin: 0px;
 	padding: 0px;
@@ -91,7 +96,6 @@ body.fotos #navegacao a#fotos {
 
 #primario {
 	width: 270px;
-	background: blueviolet;
 	float: left;
 	margin: 0px 0px 20px 195px;
 }
@@ -107,7 +111,6 @@ body.fotos #navegacao a#fotos {
 
 #secundario {
 	width: 270px;
-	background: green;
 	float: left;
 	margin: 0px 0px 20px 15px;
 }
@@ -174,6 +177,66 @@ input.botao {
 	background: #b10333;
 	border: 2px solid #870529;
 	padding: 5px;
+}
+
+/*Formatação de Imagens*/
+
+img.imagemprincipal {
+	border: 3px #dfdfdf solid;
+	width: 98%;
+}
+
+/* Formatando Cabeçalhos */
+
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3 {
+	background: #b10333;
+	color: #fff;
+}
+
+.entrevista h3 {
+	background: #de003e;
+	color: #fff;
+
+}
+
+/* Fromatação da LIsta de Notícias */
+
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+}
+
+#lista-noticias li a img{
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a{
+	text-decoration: none;
+}
+
+#lista-noticias li a h3{
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+	font-size: 0.7em;
+	color: black;
+}
+
+#lista-noticias li:hover{
+	background: #eee;
+	cursor: pointer;
 }
 
 /* Rodapé */
